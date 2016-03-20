@@ -44,7 +44,7 @@ A pictorial representation of the interaction between the components is:
 	Trigger Word: `particle`
 	URL: `<<URL to the hook.io microservice created in Step 1>>`
 6. Create an Incoming Webhook and enter the following details and note the Webhook URL 
-	Post to Channel: `paticle`
+	Post to Channel: `particle`
 7. Open this slack.json file and replace the the URL of the incoming webhook and create a Particle Webhook using the particle cli command
 *particle webhook create slack.json*
 8. Create an account in Api.ai and create a new Agent
