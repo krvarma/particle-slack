@@ -75,6 +75,10 @@ Log on to Slack and select the *particle* channel. Now you can type following co
 
 If everything goes well, you can turn on the lights and receive the temperature and humidity values. 
 
+**Schematics**
+
+![Schematics](https://raw.githubusercontent.com/krvarma/particle-slack/master/images/schematics.png)
+
 **Screenshots/Images**
 
 *Slack Outgoing Webhook*
