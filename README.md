@@ -92,3 +92,7 @@ If everything goes well, you can turn on the lights and receive the temperature 
 
 *Wiring*
 ![wirnig](https://raw.githubusercontent.com/krvarma/particle-slack/master/images/wiring.JPG)
+
+**Demo Video**
+
+https://www.youtube.com/watch?v=T9Xm4V75vvM
