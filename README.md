@@ -89,3 +89,6 @@ If everything goes well, you can turn on the lights and receive the temperature 
 
 *Api.ai Intent*
 ![Api.ai Intent](https://raw.githubusercontent.com/krvarma/particle-slack/master/images/api.ai_exp.png)
+
+*Wiring*
+![wirnig](https://raw.githubusercontent.com/krvarma/particle-slack/master/images/wiring.JPG)
