@@ -1,0 +1,9 @@
+{
+	"eventName": "pslack",
+	"url": "https://hooks.slack.com/services/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",
+	"requestType": "POST",
+	"rejectUnauthorized": false,
+	"json": {
+		"text": "{{SPARK_EVENT_VALUE}}"
+	}
+}
