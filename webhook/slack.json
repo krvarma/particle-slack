@@ -1,6 +1,6 @@
 {
 	"eventName": "pslack",
-	"url": "https://hooks.slack.com/services/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",
+	"url": "<<Replace it with your Slack Incoming Webhook URL>>",
 	"requestType": "POST",
 	"rejectUnauthorized": false,
 	"json": {
