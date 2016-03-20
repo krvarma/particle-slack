@@ -1,0 +1,161 @@
+{
+  "id": "0afea1de-d940-45c8-a352-376f4f8c2320",
+  "name": "get-sensor-values",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "data": [
+        {
+          "text": "What is the "
+        },
+        {
+          "text": "temperature",
+          "alias": "sensor",
+          "meta": "@sensor",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false
+    },
+    {
+      "data": [
+        {
+          "text": "What is current "
+        },
+        {
+          "text": "temperature",
+          "alias": "sensor",
+          "meta": "@sensor",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false
+    },
+    {
+      "data": [
+        {
+          "text": "What is the "
+        },
+        {
+          "text": "humidity",
+          "alias": "sensor",
+          "meta": "@sensor",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false
+    },
+    {
+      "data": [
+        {
+          "text": "What is the current "
+        },
+        {
+          "text": "humidity",
+          "alias": "sensor",
+          "meta": "@sensor",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false
+    },
+    {
+      "data": [
+        {
+          "text": "Tell me what is the "
+        },
+        {
+          "text": "temperature",
+          "alias": "sensor",
+          "meta": "@sensor",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false
+    },
+    {
+      "data": [
+        {
+          "text": "Tell me what is the "
+        },
+        {
+          "text": "humidity",
+          "alias": "sensor",
+          "meta": "@sensor",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false
+    },
+    {
+      "data": [
+        {
+          "text": "What is the "
+        },
+        {
+          "text": "temperature",
+          "alias": "sensor",
+          "meta": "@sensor",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "living room",
+          "alias": "room",
+          "meta": "@room",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false
+    },
+    {
+      "data": [
+        {
+          "text": "What is the "
+        },
+        {
+          "text": "humidity",
+          "alias": "sensor",
+          "meta": "@sensor",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "living room",
+          "alias": "room",
+          "meta": "@room",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get-sensor",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room"
+        },
+        {
+          "dataType": "@sensor",
+          "name": "sensor",
+          "value": "$sensor"
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "state": "LEARNED",
+  "priority": 500000,
+  "webhookUsed": false
+}

@@ -1,0 +1,92 @@
+{
+  "id": "60d565b6-c1f3-45fb-80ad-c780572bfb88",
+  "name": "control-lights",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "data": [
+        {
+          "text": "turn "
+        },
+        {
+          "text": "on",
+          "alias": "op",
+          "meta": "@action",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "bedroom",
+          "alias": "room",
+          "meta": "@room",
+          "userDefined": false
+        },
+        {
+          "text": " light"
+        }
+      ],
+      "isTemplate": false
+    },
+    {
+      "data": [
+        {
+          "text": "turn on "
+        },
+        {
+          "text": "kitchen",
+          "alias": "room",
+          "meta": "@room",
+          "userDefined": false
+        },
+        {
+          "text": " light"
+        }
+      ],
+      "isTemplate": false
+    },
+    {
+      "data": [
+        {
+          "text": "turn on "
+        },
+        {
+          "text": "living room",
+          "alias": "room",
+          "meta": "@room",
+          "userDefined": false
+        },
+        {
+          "text": " light"
+        }
+      ],
+      "isTemplate": false
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "control-light",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room"
+        },
+        {
+          "required": false,
+          "dataType": "@action",
+          "name": "op",
+          "value": "$op"
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "state": "LEARNED",
+  "priority": 500000,
+  "webhookUsed": false
+}

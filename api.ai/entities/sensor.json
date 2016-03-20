@@ -1,0 +1,23 @@
+{
+  "id": "3c1e51e8-9b64-49e1-97d6-7b1ce769ec12",
+  "name": "sensor",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "temperature",
+      "synonyms": [
+        "temperature",
+        "temp"
+      ]
+    },
+    {
+      "value": "humidity",
+      "synonyms": [
+        "humidity",
+        "humid"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

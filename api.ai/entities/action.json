@@ -1,0 +1,21 @@
+{
+  "id": "5a28cd34-71a8-4056-80d5-36338b5bca14",
+  "name": "action",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "on",
+      "synonyms": [
+        "on"
+      ]
+    },
+    {
+      "value": "off",
+      "synonyms": [
+        "off"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}
